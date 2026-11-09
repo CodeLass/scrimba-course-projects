@@ -24,7 +24,7 @@ h3 {
 
 #teams-container {
     display: flex;
-    gap: 200px;
+    gap: 175px;
 }
 
 .team-container {
@@ -72,4 +72,8 @@ button:hover {
 
 button:active {
     box-shadow: none;
+}
+
+.winning {
+    color: greenyellow;
 }

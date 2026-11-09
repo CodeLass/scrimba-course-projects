@@ -8,24 +8,24 @@
             <div id="teams-container">
                 <div class="team-container">
                     <h3>HOME</h3>
-                    <div class="scorebox" id="score-team-1">00</div>
+                    <div class="scorebox" id="score-team-1"></div>
                     <div class="btn-row">
-                        <button>+1</button>
-                        <button>+2</button>
-                        <button>+3</button>
+                        <button onclick="add(1, 1)">+1</button>
+                        <button onclick="add(1, 2)">+2</button>
+                        <button onclick="add(1, 3)">+3</button>
                     </div>
                 </div>
                 <div class="team-container">
                     <h3>GUEST</h3>
-                    <div class="scorebox" id="score-team-2">00</div>
+                    <div class="scorebox" id="score-team-2"></div>
                     <div class="btn-row">
-                        <button>+1</button>
-                        <button>+2</button>
-                        <button>+3</button>
+                        <button onclick="add(2, 1)">+1</button>
+                        <button onclick="add(2, 2)">+2</button>
+                        <button onclick="add(2, 3)">+3</button>
                     </div>
                 </div>
             </div>
-            <button>RESET</button>
+            <button onclick="reset()">RESET</button>
         </div>
         <script src="index.js"></script>
     </body>
