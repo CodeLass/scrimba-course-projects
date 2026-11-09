@@ -36,7 +36,7 @@ h3 {
 
 .scorebox {
     background-color: black;
-    width: 150px;
+    width: 165px;
     height: 150px;
     text-align: center;
     font-family: 'Cursed Timer ULiL', sans-serif;
@@ -45,4 +45,6 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
+    padding-top: 15px;
 }
