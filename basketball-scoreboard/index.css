@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+h3 {
+    margin: 10px 0 15px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -16,4 +20,29 @@ body {
     font-weight: bold;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#teams-container {
+    display: flex;
+    gap: 200px;
+}
+
+.team-container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scorebox {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
