@@ -4,5 +4,16 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+    background-color: #1B244A;
+    padding: 50px;
+    width: fit-content;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
