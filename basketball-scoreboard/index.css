@@ -28,23 +28,48 @@ h3 {
 }
 
 .team-container {
-    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 200px;
 }
 
 .scorebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
     background-color: black;
+    padding-top: 15px;
     width: 165px;
     height: 150px;
-    text-align: center;
-    font-family: 'Cursed Timer ULiL', sans-serif;
     color: #F94F6D;
     font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    text-align: center;
+}
+
+.btn-row {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    padding-top: 15px;
+    gap: 10px;
+    margin: 18px 0 40px;
+}
+
+button {
+    background-color: transparent;
+    color: #9AABD8;
+    font-size: 18px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: 10px 10px;
+    border: 1px solid #9AABD8;
+    box-shadow: 5px 5px 5px black;
+}
+
+button:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+
+button:active {
+    box-shadow: none;
 }
