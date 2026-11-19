@@ -26,6 +26,15 @@ h3 {
     color: #d0aaff;
 }
 
+a {
+    text-decoration: underline dotted;
+    color: #ef5839;
+}
+
+a:hover, a:active {
+    color: #d4b44c;
+}
+
 section {
     padding: 45px 0;
 }
