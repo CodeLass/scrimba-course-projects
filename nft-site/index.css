@@ -2,16 +2,18 @@ body{
     font-size: 16px;
     color: #2b283a;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 /* typography */
 
-h1{
-    font-size: 36px;
+h1, h3{
+    margin: 0;
 }
 
-h1, .section-two {
+h1{
     color: whitesmoke;
+    font-size: 36px;
 }
 
 h2{
@@ -23,9 +25,10 @@ h3{
     font-size: 20px;
 }
 
-body, h1, h3 {
-    margin: 0;
+p{
+    line-height: 23px;
 }
+
 
 /* links */
 
@@ -40,12 +43,16 @@ a:hover, a:active{
 
 /* layout */
 
-header, section, footer {
+header, section, footer{
     padding: 45px 0;
 }
 
-header, .section-two {
+header, .section-two{
     background-color: #5f29a3;
+}
+
+.section-two{
+    color: whitesmoke;
 }
 
 .container{
@@ -71,12 +78,3 @@ footer{
     text-align: center;
     color: #5f29a3;
 }
-
-
-
-
-
-
-
-
-
