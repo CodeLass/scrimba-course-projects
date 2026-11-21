@@ -22,6 +22,30 @@ h1, h2 {
     font-weight: 300;
 }
 
+h1 span,
+h2 span {
+    display: block;
+    font-weight: 900;
+}
+
+h1 span {
+    font-size: 80px;
+}
+
+h2 span {
+    font-size: 60px;
+}
+
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover, 
+a:focus {
+    color: #131313;
+}
+
 .main-container {
     width: 570px;
     margin: 0 auto;
