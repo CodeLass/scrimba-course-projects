@@ -29,18 +29,23 @@ h1, h2 {
     margin-top: 0;
 }
 
-h1 span,
-h2 span {
-    display: block;
-    font-weight: 900;
-}
-
-h1 span {
+h1 .accent-text {
     font-size: 80px;
 }
 
-h2 span {
+h2 .accent-text {
     font-size: 60px;
+}
+
+.accent-text {
+    display: block;
+}
+
+.accent-text,
+.name,
+time {
+    font-weight: 900;
+    color: #99D930;
 }
 
 h3, p {
@@ -75,6 +80,12 @@ section {
 .inverse {
     background-color: #252525;
     color: #fff;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background-color: #fff;
+    color: #252525;
 }
 
 .btn {
