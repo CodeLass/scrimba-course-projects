@@ -1,5 +1,75 @@
 html, body {
     margin: 0;
-    padding: 0;
+    padding: 30px 0;
+    font-family: "Source Sans 3", sans-serif;
+    background-color: lightgray;
 }
 
+html,
+body,
+h1,
+.likes {
+    font-size: 13px;
+    margin: 0;
+}
+
+.container {
+    width: 375px;
+    margin: 0px auto;
+    background-color: white;
+    padding: 0 20px 20px;
+}
+
+.logo {
+    width: 127px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 15px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.sender-section {
+    display: flex;
+    padding: 15px;
+}
+
+.sender-info {
+    margin: 0 0 0 20px;
+}
+
+.sender-info p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.icon {
+    width: 23.3;
+    margin: 10px 5px 0 0;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+.likes, span {
+    font-weight: bold;
+}
+
+.post-container {
+    margin-bottom: 0px;
+    background-color: red;
+}
