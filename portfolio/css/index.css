@@ -61,14 +61,7 @@ section {
     padding: 100px 0;
 }
 
-header {
-    background-color: #d7d7d7;
-}
-
-.about-me {
-    background-color: #ffeaea;
-}
-
-.articles {
-    background-color: #eaf9ff;
+.inverse {
+    background-color: #252525;
+    color: #fff;
 }
