@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
     font-weight: 300;
+    margin: 0;
 }
 
 h1 {
@@ -46,11 +47,28 @@ a:focus {
     color: #131313;
 }
 
-.main-container {
+.container {
     width: 570px;
     margin: 0 auto;
 }
 
 .small {
     font-size: 16px;
+}
+
+header,
+section {
+    padding: 100px 0;
+}
+
+header {
+    background-color: #d7d7d7;
+}
+
+.about-me {
+    background-color: #ffeaea;
+}
+
+.articles {
+    background-color: #eaf9ff;
 }
