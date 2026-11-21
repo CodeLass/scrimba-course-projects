@@ -71,3 +71,18 @@ section {
     background-color: #252525;
     color: #fff;
 }
+
+.btn {
+    display: inline-block;
+    color: #252525;
+    background-color: #99D930;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-top: 25px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #252525;
+    color: #fff;
+}
