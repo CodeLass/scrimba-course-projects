@@ -47,11 +47,15 @@ h1 {
 }
 
 .item-img {
+    display: block;
     width: 100%;
 }
 
 .caption {
+    display: flex;
+    justify-content: space-between;
     margin: 0 25px;
+    gap: 20px;
 }
 
 .img-banner {
@@ -61,4 +65,13 @@ h1 {
     position: absolute;
     top: 0px;
     left: 0px;
+}
+
+button {
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
 }
