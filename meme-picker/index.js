@@ -178,5 +178,3 @@ function getEmotionsArray(cats){
     }
     return emotionsArray
 }
-
-getEmotionsArray(catsData)
