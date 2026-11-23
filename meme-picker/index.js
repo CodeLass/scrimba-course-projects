@@ -176,7 +176,7 @@ function getEmotionsArray(cats){
             emotionsArray.push(emotion)
         }
     }
-    console.log(emotionsArray)
+    return emotionsArray
 }
 
 getEmotionsArray(catsData)
