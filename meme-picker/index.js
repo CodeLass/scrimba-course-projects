@@ -8,12 +8,8 @@ const memeModal = document.getElementById('meme-modal')
 const memeModalCloseBtn = document.getElementById('meme-modal-close-btn')
 
 emotionRadios.addEventListener('change', highlightCheckedOption)
-getImageBtn.addEventListener('click', renderCat)
 memeModalCloseBtn.addEventListener('click', closeModal)
-
-function closeModal() {
-    memeModal.style.display = 'none'
-}
+getImageBtn.addEventListener('click', renderCat)
 
 function highlightCheckedOption(e) {
     const radios = document.getElementsByClassName('radio')
@@ -24,27 +20,8 @@ function highlightCheckedOption(e) {
     option.classList.add('highlight')
 }
 
-function getMatchingCatsArray() {
-    const selectedEmotion = document.querySelector('input[type="radio"]:checked')?.value
-    if (selectedEmotion) {
-        const isGif = gifsOnlyOption.checked;
-        const matchingCatsArray = catsData.filter(cat => isGif
-            ? cat.emotionTags.includes(selectedEmotion) && cat.isGif
-            : cat.emotionTags.includes(selectedEmotion)
-        )
-        return matchingCatsArray
-    } 
-}
-
-function getSingleCatObject() {
-    const catsArray = getMatchingCatsArray()
-    if (catsArray.length === 1) {
-        return catsArray[0]
-    }
-    else {
-        const index = Math.floor(Math.random() * catsArray.length)
-        return catsArray[index]
-    }
+function closeModal() {
+    memeModal.style.display = 'none'
 }
 
 function renderCat() {
@@ -58,6 +35,29 @@ function renderCat() {
         >
     `
     memeModal.style.display = 'flex'
+}
+
+function getSingleCatObject() {
+    const catsArray = getMatchingCatsArray()
+    if (catsArray.length === 1) {
+        return catsArray[0]
+    }
+    else {
+        const index = Math.floor(Math.random() * catsArray.length)
+        return catsArray[index]
+    }
+}
+
+function getMatchingCatsArray() {
+    const selectedEmotion = document.querySelector('input[type="radio"]:checked')?.value
+    if (selectedEmotion) {
+        const isGif = gifsOnlyOption.checked;
+        const matchingCatsArray = catsData.filter(cat => isGif
+            ? cat.emotionTags.includes(selectedEmotion) && cat.isGif
+            : cat.emotionTags.includes(selectedEmotion)
+        )
+        return matchingCatsArray
+    } 
 }
 
 function getEmotionsArray(cats){
