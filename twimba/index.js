@@ -5,6 +5,11 @@ const tweetBtn = document.getElementById('tweet-btn')
 
 tweetBtn.addEventListener('click', () => console.log(tweetInput.value))
 
+document.addEventListener('click', function (e) {
+    console.log(e.target.dataset.like)
+    console.log(e.target.dataset.retweet)
+})
+
 function getFeedHtml() {
     let feedHtml = ``
 
