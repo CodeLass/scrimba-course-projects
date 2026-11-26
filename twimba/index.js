@@ -43,7 +43,7 @@ function handleReplyClick(replyId) {
 }
 
 function handleTweetBtnClick() {
-    if (tweetInput.value.trim() != "") {
+    if (tweetInput.value) {
 
         tweetsData.unshift({
             handle: '@Scrimba',
