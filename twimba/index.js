@@ -52,7 +52,7 @@ function handleTweetBtnClick() {
         replies: [],
         isLiked: false,
         isRetweeted: false,
-        uuid: uuidv4()
+        uuid: uuidv4(),
     })
 }
 
