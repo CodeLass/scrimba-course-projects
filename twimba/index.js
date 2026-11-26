@@ -126,3 +126,11 @@ function getFeedHtml() {
 const render = () => document.getElementById('feed').innerHTML = getFeedHtml()
 
 render()
+
+/*
+    TODO:
+        add ability to reply to a specific tweet
+        save to local storage
+        allow user to delete a tweet
+        
+*/
