@@ -38,8 +38,8 @@ function handleRetweetClick(tweetId) {
 }
 
 function handleReplyClick(replyId) {
-    const replies = document.getElementById(`replies-${replyId}`)
-    replies.classList.toggle('hidden')
+    document.getElementById(`replies-${replyId}`)
+        .classList.toggle('hidden')
 }
 
 function getFeedHtml() {
