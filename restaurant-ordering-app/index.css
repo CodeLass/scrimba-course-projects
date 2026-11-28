@@ -67,7 +67,8 @@ h1, p {
     padding: 0 0 3px 0;
 }
 
-.add-btn:hover:focus {
+.add-btn:hover,
+.add-btn:focus {
     background-color: #D2D2D2;
 }
 
