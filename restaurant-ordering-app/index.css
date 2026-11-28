@@ -68,8 +68,7 @@ h1 {
     text-align: center;
 }
 
-.add-btn:hover,
-.add-btn:focus {
+.add-btn:hover {
     background-color: #D2D2D2;
 }
 
