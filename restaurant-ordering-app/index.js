@@ -11,7 +11,7 @@ const htmlString = menuArray.map((item) => {
                 <p class="menu-item-desc">${item.ingredients.join(', ')}</p>
                 <p class="menu-item-price">$${item.price}</p>
             </div>
-            <button class="add-btn">+</button>
+            <button data-id=${item.id} class="add-btn">+</button>
         </div>
     `;
 }).join('')
