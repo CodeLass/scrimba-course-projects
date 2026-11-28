@@ -31,7 +31,7 @@ header {
     height: 200px;
     overflow: hidden;
     color: white;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 header img {
@@ -44,7 +44,7 @@ header img {
 
 h1 {
     font-weight: 400;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .add-btn {
@@ -62,7 +62,7 @@ h1 {
     width: 50px;
     color: #3c3c3c;
     font-weight: 200;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 1;
     font-family: Inter, sans-serif;
     text-align: center;
@@ -82,20 +82,20 @@ h1 {
 }
 
 .menu-item-icon {
-    font-size: 80px;
+    font-size: 5rem;
     font-family: 'Inter', sans-serif;
 }
 
 .menu-item-heading {
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .menu-item-desc {
     color: #8b8b8b;
-    font-size: 16px
+    font-size: 1rem;
 }
 
 .menu-item-price {
     margin: 10px 0 0 0;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
