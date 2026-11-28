@@ -53,8 +53,7 @@ h1 {
     align-items: center;
     cursor: pointer;
     margin-left: auto;
-    box-shadow: 0 0 1.5px #3c3c3c;
-    border: none;
+    border: 1px solid #ddd;
     border-radius: 50%;
     background-color: white;
     padding: 0;
